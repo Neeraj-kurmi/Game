@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const RollDice = ({ currentDice, rollDice }) => {
+const RollDice = ({ currentDice, rollDice ,isRolling }) => {
   
   return (
     <div className="grid place-items-center mt-12">

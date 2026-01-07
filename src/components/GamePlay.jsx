@@ -75,7 +75,7 @@ const GamePlay = () => {
           }
           transition={{ duration: 0.5 }}
         >
-          <RollDice currentDice={currentDice} rollDice={rollDice} />
+          <RollDice currentDice={currentDice} rollDice={rollDice} isRolling={isRolling} />
         </motion.div>
       </div>
 
